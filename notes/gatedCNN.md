@@ -1,3 +1,5 @@
+### [Gated CNNs(Yann Dauphin et al, 2017)](https://arxiv.org/abs/1612.08083)
+
 The paper aims to perform language modelling using Gated CNNs. This is the first non recurrent approach to language modelling, and the paper achieves substantial accuracy results on large-context datasets also. The main USP is that the CNN units can be parallised and hence this model is more faster than LSTM based models, **only during inference, not necesarily during training. 
 
 
