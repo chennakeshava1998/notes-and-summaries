@@ -1,9 +1,8 @@
-![Why Flow-Completion Time is the Right Metric
-for Congestion Control](http://yuba.stanford.edu/rcp/flowCompTime-dukkipati.pdf)
+![Why Flow-Completion Time is the Right Metric for Congestion Control](http://yuba.stanford.edu/rcp/flowCompTime-dukkipati.pdf)
 
 ### Key Points:
 1. It is intractable to provably minimize FCT. So try heuristics.
-2. 
+
 
 ### To Explore:
 1. Relationship between FCT and SRPT(Shortest Remaining Processing Time) and PS(Processor Sharing).
