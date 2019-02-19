@@ -13,6 +13,8 @@
 
 4. " The order of where conditions is ignored in measuring logical form accuracy in our model ". Does this not obviously increase the logical accuracy when compared with other models which do not adhere to this practise of ignoring the order of WHERE conditions? 
 
+5. The final output of where-clause will be that one which has the highest joint probability with respect to all the four where predictors.
+
 #### Doubts:
 1. Prediction of where-val: Aren't we assuming that all where-value tokens consist of consecutive words in the NLQ? What about counter examples? What's the rationale for usage in Dong and Lapata?
 
