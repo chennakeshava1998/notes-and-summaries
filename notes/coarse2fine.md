@@ -7,6 +7,8 @@ This is similar to machine-translation but the authors introduce an additional s
 2. Text2SQL happens in two stages. A rough sketch *a* is first generated, and this is used to guide the final decoding. The rough sketch *a* is devoid of argument-names, variable-names(replaced with it's datatype), and all other lower level details.
 3. All the components input *x*, rough sketch *a* and final output *y* are treated as sequences. Hence, this becomes a seq2seq problem.
 4. One-hot vectors are used to encode the input.
+5. Attention is used extensively to learn soft alignments [Luong, 2015].
+6. The training objective maximises the probability of the final meaning representation and that of the intermediate rough sketch also. 
 
 
 
