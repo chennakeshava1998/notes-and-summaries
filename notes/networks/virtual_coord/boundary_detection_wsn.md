@@ -1,4 +1,4 @@
-#### On Boundary Detection of 2D and 3D WSN
+#### [On Boundary Detection of 2D and 3D WSN](https://ieeexplore.ieee.org/abstract/document/6134480)
 
 This constructs a Topology Preserving Map(TPM) using the virtual coordinates(VCs) and uses geometric properties on those coordinates to detect a boundary node.
 
