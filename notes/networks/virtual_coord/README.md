@@ -1,4 +1,4 @@
-Abbreviations:
+### Abbreviations
 
 WSN : Wireless Sensor Networks
 VCS : Virtual Coordinate System
