@@ -10,5 +10,5 @@ If no such neighbour is found, then a local minima has been reached.
 3. *After the transformation to DVCS, the address size of every node is (M choose 2), where M = Number of anchors.*
 4. This transformation maps the VCS into positive and negative parts of the real line with respect to every pair of anchors. 
 5. The authors prove that 100% routability can be achieved in a constrained tree (CT, deg of every node<= 3)
-6. In the routing algorithm, to forward a packet, a node must perform *atleast* O(K + 1) calculations to determine the next nearest neigbour to transfer the packet.
+6. In the routing algorithm, to forward a packet, a node must perform *atleast* O(K + 1) calculations to determine the next nearest neigbour to transfer the packet, where K = maximum number of neighbours of the node / maximum degree of a node.
 
