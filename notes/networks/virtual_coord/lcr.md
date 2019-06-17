@@ -52,6 +52,13 @@ This is similar to the concept of distance vector. But minimum hopcounts is meas
 1. Check out the works of Leighton and Moitra(2010) which proves Papadimitrou's conjecture on planar tri-vertex connected graphs.
 2. Works on Kissing Number, Greedy Embedding in hyperbolic planes to determine the optimal number of anchors. 
 
+### Try out!
+It's possible to perform routing using only the information of virtual coordinates using the following two assumptions. This essentially helps a node identify it's neighbours using solely it's logical coordinates.
+1. Every node has the logical coordinates of the entire network.
+2. Every node has an unique logical coordinate.
+
+In that case, two nodes are neighbours if the distance between them is <= sqrt(m), where m = number of anchors. 
+
 
 
 
