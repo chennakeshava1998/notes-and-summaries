@@ -18,7 +18,7 @@ This is similar to the concept of distance vector. But minimum hopcounts is meas
 2. Between any two nodes, bounds on the hopcounts is derived. Suppose X and Y be two arbitrary nodes, then<br> *Minimum:* max(Xi - Yi), where Xi refers to the hopcount between X and anchor-i.<br>
 *Maximum:* Summation over all i (Xi - Yi)
 
-- Distance between two points X and Y : sqrt(sum over all i (Xi - Yi)^2)  [Similar to rms without the mean]
+- Distance between two points X and Y is the L2 norm: sqrt(sum over all i (Xi - Yi)^2)  [Similar to rms without the mean]
 
 > Every node is aware of the logical coordinates of it's neighbours. Is it possible to find out the neighbours of a node using only the LCs information? Can we perform routing without the additional information of neighbourhood of a node specified explicitly.
 
