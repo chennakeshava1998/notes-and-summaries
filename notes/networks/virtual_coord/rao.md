@@ -2,6 +2,8 @@
 
 *Work in Progress*
 
+This paper introduces the concept of virtual-coordinates. It uses the information about perimeter nodes for assigning the VCs to other nodes in the network. The routing algorithm used is very similar to Logical Coordinate Routing. This performs better than geographic routing in the presence of obstacles. But the work by D. C. Dhanapala et al on Convex Subspace Routing achives better performane than this paper on similar network topologies. 
+
 - **On-Demand Routing:** No periodic exchange of messages. A route request is flooded through the entire network when there is a need to send a message. Does not work well with large networks.
 - Geographic routing is scalable, as nodes only keep state for their neighbors, and supports a fully general any-to-any communication pattern without explicit route establishment.
 
