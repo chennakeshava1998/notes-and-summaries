@@ -1,6 +1,6 @@
 # [CSR - Convex Subspace Routing](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=5355185)
 
-tl;dr - In contrast to existing VCR schemes that use backtracking or hill climbing techniques to overcome local minima, CSR avoids using anchors that cause local minima. CSR selects subsets of anchors dynamically to provide a **convex distance function** from source to destination. Consequently, it is less sensitive to anchor placement and over anchoring.
+tl;dr - In contrast to existing VCR schemes that use backtracking or hill climbing techniques to overcome local minima, CSR avoids using anchors that cause local minima. CSR selects subsets of anchors dynamically to provide a **convex distance function** from source to destination. This is ensured by selecting a convex polygon to enclose the area between the source and destination. Consequently, it is less sensitive to anchor placement and over anchoring.
 
 - CSR uses the neighbourhood table information, similar to LCR. It only differs in choosing the subset of anchors for distance calculation.
 
