@@ -12,6 +12,10 @@ This paper introduces the concept of virtual-coordinates. It uses the informatio
 
 - Ad-hoc networks need routing between generic pair of source and destination. On the other hand, in sensornets, there is no reason for sensors to communicate with one other. Instead, they usually send their data back to the central station.
 
+- Two bootstrap nodes are selected to provide orientation in the calculation procedure. Otherwise, the calculation is invariant to rotation, scaling, and other transformations.
+
+> if a node is the farthest away, among all its two-hop neighbors from the first bootstrap node, then the node decides that it is on the perimeter.
+
 
 ### References
 1. Fabian Kuhn, Roger Wattenhofer, Yan Zhang and Aaron Zollinger, ”Geometric Ad-Hoc Routing: Of Theory and Practice,” in Principles of Distibuted Computing, 2003. ===> Obtain localization solely through the connectivity information 
