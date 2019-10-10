@@ -1,3 +1,5 @@
+## [Pixel Recurrent Neural Networks](https://arxiv.org/pdf/1601.06759.pdf)
+
 tldr; The chief contributions of the paper:
 1. Model images as discrete probability distributions instead of continous
 2. Use 2D LSTMs
